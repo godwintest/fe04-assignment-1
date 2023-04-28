@@ -5,6 +5,109 @@
     <title>Styling Exercise</title>
     <style>
         /* Your CSS code goes here */
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            font-family: "Poppins"; 
+        }
+
+        .header{
+            background-color: aliceblue;
+            padding: 25px 50px;
+            display: flex;
+            justify-content: space-between; 
+             
+        }
+
+        .header nav ul{
+            display: flex;
+            list-style: none; 
+        }
+
+        .header nav ul li{
+            padding: 10px;
+        }
+
+        .header nav ul li a{
+            text-decoration: none;
+            color: black; 
+            font-size: 20px;
+        }
+        h1{
+            font-size: 30px;
+        }
+
+        .main{
+            background-color: #f9f9f9;
+            padding: 40px 20px;
+        }
+        h2{
+            text-align: center;
+            font-size: 25px;
+            color: orange;
+        }
+        .main ul{
+            padding-bottom: 20px;
+            padding-top: 20px;
+            padding-left: 20px;
+            font-size: 20px;
+            color: rgb(20, 190, 190);
+        }
+        p{
+            font-size: 15px;
+        }
+        #first-item{
+            border: 1px solid black;
+            color: orange;
+        }
+        .header nav ul li a:hover{
+            background-color: orange;
+            padding: 7px 10px;
+            color: white;
+        }
+
+        .footer{
+            text-align: center;
+            padding-top: 40px;
+            padding-bottom: 10px;
+            background-color: rgb(82, 81, 81);
+            color: white;
+            font-size: 30px;
+
+        }
+        .footer nav {
+            margin-top: 20px;
+        }
+        .footer nav ul li a {
+            display: flex;
+            align-items: center;
+            color: skyblue;
+            text-decoration: none;  
+        }
+        .footer nav ul{
+            display: flex;
+            list-style: none; 
+            justify-content: center;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .footer nav ul li{
+            padding: 30px;
+        }
+        .footer nav ul li a:hover{
+            background-color: orange;
+            padding: 5px 5px;
+            color: white;
+        }
+
+        .main > p::first-letter{
+            font-size: 35px;
+            color: orange;
+        }
+
+
     </style>
 </head>
 
